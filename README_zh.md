@@ -38,6 +38,8 @@
         import nltk
         import os
         
+        # 10.255.34.44 是宿主机 IP
+        # 7890 是代理端口
         os.environ['http_proxy'] = 'http://10.255.34.44:7890'
         os.environ['https_proxy'] = 'http://10.255.34.44:7890'
         

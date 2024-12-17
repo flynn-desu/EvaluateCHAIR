@@ -38,6 +38,8 @@
         import nltk
         import os
         
+        # 10.255.34.44 is the host IP
+        # 7890 is the proxy port
         os.environ['http_proxy'] = 'http://10.255.34.44:7890'
         os.environ['https_proxy'] = 'http://10.255.34.44:7890'
         
