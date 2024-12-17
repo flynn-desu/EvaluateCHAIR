@@ -1,0 +1,164 @@
+{
+    "each_caption_chair_analysis": [
+        {
+            "image_id": 384350,
+            "caption": "a red and white plane on a runway.",
+            "mscoco_hallucinated_words": [],
+            "mscoco_ground_truth_words": [
+                "airplane"
+            ],
+            "mscoco_generated_words": [
+                "airplane"
+            ],
+            "hallucination_indexes": [],
+            "words": [
+                "a",
+                "red",
+                "and",
+                "white",
+                "plane",
+                "on",
+                "a",
+                "runway",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 0,
+                "CHAIRi": 0.0
+            }
+        },
+        {
+            "image_id": 540414,
+            "caption": "a group of people sitting around a table.",
+            "mscoco_hallucinated_words": [
+                [
+                    "table",
+                    "dining table"
+                ]
+            ],
+            "mscoco_ground_truth_words": [
+                "umbrella",
+                "person",
+                "bottle",
+                "bowl",
+                "handbag",
+                "bus"
+            ],
+            "mscoco_generated_words": [
+                "person",
+                "dining table"
+            ],
+            "hallucination_indexes": [
+                7
+            ],
+            "words": [
+                "a",
+                "group",
+                "of",
+                "person",
+                "sitting",
+                "around",
+                "a",
+                "table",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 1,
+                "CHAIRi": 0.5
+            }
+        },
+        {
+            "image_id": 383443,
+            "caption": "a bathroom with a sink and a mirror.",
+            "mscoco_hallucinated_words": [],
+            "mscoco_ground_truth_words": [
+                "sink",
+                "remote",
+                "tv"
+            ],
+            "mscoco_generated_words": [
+                "sink"
+            ],
+            "hallucination_indexes": [],
+            "words": [
+                "a",
+                "bathroom",
+                "with",
+                "a",
+                "sink",
+                "and",
+                "a",
+                "mirror",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 0,
+                "CHAIRi": 0.0
+            }
+        },
+        {
+            "image_id": 253433,
+            "caption": "a stuffed teddy bear sitting on a bed.",
+            "mscoco_hallucinated_words": [],
+            "mscoco_ground_truth_words": [
+                "couch",
+                "teddy bear",
+                "bear",
+                "bed"
+            ],
+            "mscoco_generated_words": [
+                "teddy bear",
+                "bed"
+            ],
+            "hallucination_indexes": [],
+            "words": [
+                "a",
+                "stuffed",
+                "teddy bear",
+                "sitting",
+                "on",
+                "a",
+                "bed",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 0,
+                "CHAIRi": 0.0
+            }
+        },
+        {
+            "image_id": 314709,
+            "caption": "a woman riding skis down a snow covered slope.",
+            "mscoco_hallucinated_words": [],
+            "mscoco_ground_truth_words": [
+                "person",
+                "skis"
+            ],
+            "mscoco_generated_words": [
+                "person",
+                "skis"
+            ],
+            "hallucination_indexes": [],
+            "words": [
+                "a",
+                "woman",
+                "riding",
+                "ski",
+                "down",
+                "a",
+                "snow",
+                "covered",
+                "slope",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 0,
+                "CHAIRi": 0.0
+            }
+        }
+    ],
+    "all_captions_chair_analysis": {
+        "CHAIRs": 0.2,
+        "CHAIRi": 0.125
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Clip.pth.json": {
+        "CHAIRs": 0.2,
+        "CHAIRi": 0.125
+    },
+    "ViT.pth.json": {
+        "CHAIRs": 0.6,
+        "CHAIRi": 0.3333333333333333
+    }
+}

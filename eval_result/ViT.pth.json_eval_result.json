@@ -1,0 +1,181 @@
+{
+    "each_caption_chair_analysis": [
+        {
+            "image_id": 315257,
+            "caption": "a bird sitting on top of a wooden table.",
+            "mscoco_hallucinated_words": [
+                [
+                    "table",
+                    "dining table"
+                ]
+            ],
+            "mscoco_ground_truth_words": [
+                "bird",
+                "bowl"
+            ],
+            "mscoco_generated_words": [
+                "bird",
+                "dining table"
+            ],
+            "hallucination_indexes": [
+                8
+            ],
+            "words": [
+                "a",
+                "bird",
+                "sitting",
+                "on",
+                "top",
+                "of",
+                "a",
+                "wooden",
+                "table",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 1,
+                "CHAIRi": 0.5
+            }
+        },
+        {
+            "image_id": 35279,
+            "caption": "a laptop computer sitting on top of a desk.",
+            "mscoco_hallucinated_words": [
+                [
+                    "desk",
+                    "dining table"
+                ]
+            ],
+            "mscoco_ground_truth_words": [
+                "person",
+                "bottle",
+                "tennis racket",
+                "book",
+                "laptop",
+                "cell phone",
+                "handbag"
+            ],
+            "mscoco_generated_words": [
+                "laptop",
+                "dining table"
+            ],
+            "hallucination_indexes": [
+                8
+            ],
+            "words": [
+                "a",
+                "laptop computer",
+                "sitting",
+                "on",
+                "top",
+                "of",
+                "a",
+                "desk",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 1,
+                "CHAIRi": 0.5
+            }
+        },
+        {
+            "image_id": 85478,
+            "caption": "a polar bear is standing in the water.",
+            "mscoco_hallucinated_words": [],
+            "mscoco_ground_truth_words": [
+                "bear"
+            ],
+            "mscoco_generated_words": [
+                "bear"
+            ],
+            "hallucination_indexes": [],
+            "words": [
+                "a",
+                "polar",
+                "bear",
+                "is",
+                "standing",
+                "in",
+                "the",
+                "water",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 0,
+                "CHAIRi": 0.0
+            }
+        },
+        {
+            "image_id": 100428,
+            "caption": "a man in a suit is holding a tie.",
+            "mscoco_hallucinated_words": [],
+            "mscoco_ground_truth_words": [
+                "person",
+                "tie"
+            ],
+            "mscoco_generated_words": [
+                "person",
+                "tie"
+            ],
+            "hallucination_indexes": [],
+            "words": [
+                "a",
+                "man",
+                "in",
+                "a",
+                "suit",
+                "is",
+                "holding",
+                "a",
+                "tie",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 0,
+                "CHAIRi": 0.0
+            }
+        },
+        {
+            "image_id": 116439,
+            "caption": "a woman sitting on top of a surfboard.",
+            "mscoco_hallucinated_words": [
+                [
+                    "surfboard",
+                    "surfboard"
+                ]
+            ],
+            "mscoco_ground_truth_words": [
+                "person",
+                "boat",
+                "chair",
+                "handbag"
+            ],
+            "mscoco_generated_words": [
+                "person",
+                "surfboard"
+            ],
+            "hallucination_indexes": [
+                7
+            ],
+            "words": [
+                "a",
+                "woman",
+                "sitting",
+                "on",
+                "top",
+                "of",
+                "a",
+                "surfboard",
+                "."
+            ],
+            "metrics": {
+                "CHAIRs": 1,
+                "CHAIRi": 0.5
+            }
+        }
+    ],
+    "all_captions_chair_analysis": {
+        "CHAIRs": 0.6,
+        "CHAIRi": 0.3333333333333333
+    }
+}
