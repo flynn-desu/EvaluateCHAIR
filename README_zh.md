@@ -3,6 +3,10 @@
 - [[中文]](README_zh.md)
 - [[Engilish]](README.md)
 
+# 介绍
+
+CHAIR 是用于评估 image caption 中 object hallucination 的指标。这里提供一个评估  CHAIR 指标的简单方法。
+
 # 环境搭建
 
 1. 创建 conda 环境（如果已有则跳过）

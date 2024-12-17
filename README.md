@@ -3,6 +3,10 @@
 - [[中文]](README_zh.md)
 - [[Engilish]](README.md)
 
+# Introduction
+
+CHAIR is a metric used to evaluate object hallucination in image captioning. Here, a simple method to evaluate the CHAIR metric is provided.
+
 # Environment Setup
 
 1. **Create a Conda Environment (Skip if already exists)**
